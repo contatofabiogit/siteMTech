@@ -1,3 +1,7 @@
+.container{
+    font-family: Century Gothic;
+}
+
 .navbar-brand{
     padding-top: 5px;
 }
@@ -69,6 +73,10 @@ footer{
 .textoroda{
     color: white;
     text-align: center;
+}
+
+.textoroda a{
+    color: #FFFFFF;
 }
 
 .ulroda{
