@@ -1,0 +1,9 @@
+{
+    "elements": {},
+    "attributes": {
+        "crossorigin": {
+            "context": "link"
+        },
+        "aria-expanded": {}
+    }
+}

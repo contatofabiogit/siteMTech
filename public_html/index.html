@@ -1,16 +1,166 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+    - Desenvolvido por: MTech Soluções
+    - Todos os Direitos Reservados
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>MTech Soluções - Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Começo do Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Fim do Bootstrap -->    
+
+        <!-- Começo Local -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/gt_favicon.png" />
+        <!-- Fim Local -->
     </head>
     <body>
-        <div>TODO write content</div>
-    </body>
+    
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Soluções</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <section>
+        <div class="row">
+            <img src="img/jumbotro.png" id="banner" class="img-responsive center-block">
+        </div>
+        <article class="container">
+            <h1 id="titulop"> Atraia mais clientes e conquiste seus objetivos</h1>
+            <p class="principal">
+                A MTech Soluções vai ajudar no crescimento do seu negócio, atraindo clientes em potencial que estão em busca exatamente do que você oferece.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <div class="row, container">
+            <hr>
+            <h1 class="principal">Como Podemos ajuda sua empresa ?</h1>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="assuntosobre">A MTech Soluções é uma empresa de tecnologia
+                        com o objetivo de desenvolver softwares personalizados para empresas
+                        que buscam inovação e qualidade. Temos uma equipe multidisciplinar que
+                        possui uma experiência em diversas áreas da tecnologia da informação.</p>
+                    <p class="assuntosobre">Nosso diferencial é a integração entre seu mundo de
+                        negócios com a tecnologia necessária, criando soluções que ajudem e
+                        aprimorem o caminho para atingir seus objetivos definidos.</p>
+                </div>
+                <div class="col-md-6">
+                    <figure>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/v41ZNdVoq0U" frameborder="0" allowfullscreen></iframe>
+                        <figcaption>Apresentação MTech Soluções</figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <h1 class="titulop2">Soluções e sistemas de TI com base nas necessidades específicas do seu negócio </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="classificados">
+        <div class="container">
+            <hr>
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/bn_web.fw.png" class="img-responsive">
+                    <h3 class="tituloap">Desenvolvimento de Sistemas WEB</h3>
+                    <p class="assuntoap">O desenvolvimento profissional de sistemas de informação (Desenvolvimento de Sistemas Web ou via Internet)
+                        envolve várias etapas e pode assumir diferentes ciclos de vida, dependendo de fatores como
+                        disponibilidade de recursos humanos, materiais, financeiros e do tempo. </p>
+                    <p><a class="btn btn-default" href="servicos.html" role="button">Mais Detalhes</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/bn_markting.fw.png" class="img-responsive">
+                    <h3 class="tituloap">Markting Digital</h3>
+                    <p class="assuntoap">Atualmente vivemos a era das encontrabilidades, onde os usuários
+                        de internet cada vez tem menos tempo para procurar por algo e nesta dinâmica de
+                        mercado, estar presente com conteúdo e informação para seu cliente é essencial
+                        em um trabalho de marketing digital. </p>
+                    <p><a class="btn btn-default" href="servicos.html" role="button">Mais Detalhes</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/bn_consultoria.fw.png" class="img-responsive">
+                    <h3 class="tituloap">Consultoria em TI</h3>
+                    <ul>
+                        <li>Automação e Informatização</li>
+                        <li>Mapeamento de Processos</li>
+                        <li>Melhorias de Processos</li>
+                        <li>Planejamento de Produção</li>
+                        <li>Controle de Produção</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="servicos.html" role="button">Mais Detalhes</a></p>
+                </div>
+            </div>
+
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="row container">
+            <hr>
+            <div class="col-md-4">
+                <a href="index.html"><img src="img/bannefooter.fw.png" class="img-responsive"></a>
+            </div>
+            <div class="col-md-4">
+                <h2 class="hroda">Fale Conosco</h2>
+                <ul class="ulroda">
+                    <li>E-mail: contato@mtechsolucoes.com.br</li>
+                    <li>Horario: Segunda - Sexta: 8:00 - 18:00</li>
+                </ul>
+            </div>
+            <div class="col-md-4" >
+                <h2 class="hroda">Siga-nos</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="https://www.facebook.com/OficialMtechSolucoes/"><img class="img-responsive " src="img/fb-logo.png" alt="" width="50" height="50"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a  href="https://www.instagram.com/oficialmtechsolucoes/"><img  class="img-responsive" src="img/instagram-camera-logo.png" alt="" width="50" height="50"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a  href="contato.html"><img  class="img-responsive" src="img/communication-email-2-icon-7.png" alt="" width="50" height="50"></a>
+                    </div>
+
+                    <div class="col-md-4">
+                    </div>
+
+                </div>
+            </div>
+            <p class="row">
+            <p class="textoroda">&copy; 2016 - Desenvolvido por MTech Soluções</p>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
